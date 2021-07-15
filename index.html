@@ -16,11 +16,12 @@
 
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="css/swiper.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
   <div class="contenedor-general">
-    <header class="header">
+    <header class="header" id="header">
       <nav class="navbar">
         <div class="logo">
           <img src="img/logo.png" alt="" />
@@ -133,7 +134,7 @@
         </div>
 
         <div class="cards-courses">
-          <div class="card-course">
+          <div class="card-course" data-aos="zoom-in-right" data-aos-duration="1500">
             <img src="img/c1.jpg" alt="">
             <div class="text-img-course">
               <p>Art</p>
@@ -153,7 +154,7 @@
                   <p>10 week</p>
                 </div>
               </div>
-              <h4>Donec sed teus enime</h4>
+              <h4 class="subtitle-card-course">Donec sed teus enime</h4>
               <p class="parrafo-card-course">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <div class="footer-card-course">
                 <div class="f-card-course">
@@ -171,7 +172,7 @@
             </div>
           </div>
 
-          <div class="card-course">
+          <div class="card-course" data-aos="zoom-in-right" data-aos-duration="1500">
             <img src="img/c2.jpg" alt="">
             <div class="text-img-course">
               <p>Digital</p>
@@ -192,7 +193,7 @@
                   <p>10 week</p>
                 </div>
               </div>
-              <h4>Donec sed teus enime</h4>
+              <h4 >Donec sed teus enime</h4>
               <p class="parrafo-card-course">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <div class="footer-card-course">
                 <div class="f-card-course">
@@ -210,7 +211,7 @@
             </div>
           </div>
 
-          <div class="card-course">
+          <div class="card-course" data-aos="zoom-in-right" data-aos-duration="1500">
             <img src="img/c3.jpg" alt="">
             <div class="text-img-course">
               <p>Html</p>
@@ -248,7 +249,7 @@
             </div>
           </div>
 
-          <div class="card-course">
+          <div class="card-course" data-aos="zoom-in-right" data-aos-duration="1500">
             <img src="img/c4.jpg" alt="">
             <div class="text-img-course">
               <p>Website</p>
@@ -286,7 +287,7 @@
             </div>
           </div>
 
-          <div class="card-course">
+          <div class="card-course" data-aos="zoom-in-right" data-aos-duration="1500">
             <img src="img/c1.jpg" alt="">
             <div class="text-img-course">
               <p>Marketing</p>
@@ -324,7 +325,7 @@
             </div>
           </div>
 
-          <div class="card-course">
+          <div class="card-course" data-aos="zoom-in-right" data-aos-duration="1500">
             <img src="img/c5.jpg" alt="">
             <div class="text-img-course">
               <p>Study</p>
@@ -371,7 +372,7 @@
       </section>
       <section class="classes">
         <div class="cards-classes">
-          <div class="card-class">
+          <div class="card-class " data-aos="fade-down-right"" data-aos-duration="900">
             <i class="fas fa-american-sign-language-interpreting"></i>
             <div class="container-card-class">
               <h4>Flexible Classes</h4>
@@ -379,7 +380,7 @@
             </div>
           </div>
 
-          <div class="card-class">
+          <div class="card-class" data-aos="fade-down-left" data-aos-duration="900">
             <i class="fas fa-download"></i>
             <div class="container-card-class">
               <h4>Offline Mode</h4>
@@ -387,7 +388,7 @@
             </div>
           </div>
 
-          <div class="card-class">
+          <div class="card-class" data-aos="fade-up-right" data-aos-duration="600">
             <i class="fas fa-headphones"></i>
             <div class="container-card-class">
               <h4>Educator Help</h4>
@@ -395,7 +396,7 @@
             </div>
           </div>
 
-          <div class="card-class">
+          <div class="card-class" data-aos="fade-up-left" data-aos-duration="600">
             <i class="fas fa-play-circle"></i>
             <div class="container-card-class">
               <h4>Online Classes</h4>
@@ -410,20 +411,20 @@
         </div>
         <p>Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
         <div class="content-numbers">
-          <div class="numbers-card">
-            <h4>6,300</h4>
+          <div class="numbers-card contador ocultar">
+            <h4 class="contador-cant " data-cant-total="6300">0</h4>
             <p>LEARNERS & COUNTING</p>
           </div>
-          <div class="numbers-card">
-            <h4>638</h4>
+          <div class="numbers-card contador ocultar">
+            <h4 class="contador-cant " data-cant-total="638">0</h4>
             <p>TOTAL COURSES</p>
           </div>
-          <div class="numbers-card">
-            <h4>7,600</h4>
+          <div class="numbers-card  contador ocultar">
+            <h4 class="contador-cant" data-cant-total="7600">0</h4>
             <p>SUCCESSFUL STUDENTS</p>
           </div>
-          <div class="numbers-card">
-            <h4>36</h4>
+          <div class="numbers-card  contador ocultar">
+            <h4 class="contador-cant" data-cant-total="36">0</h4>
             <p>LANGUAGES</p>
           </div>
         </div>
@@ -433,7 +434,7 @@
           <h3>Student Community <span>Feedback</span></h3>
         </div>
         <div class="cards-testimonial">
-          <div class="card-testimonial">
+          <div class="card-testimonial" data-aos="zoom-in-right">
             <i class="fas fa-quote-left"></i>
             <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit."</p>
             <div class="profile-testimonial">
@@ -446,7 +447,7 @@
             </div>
           </div>
 
-          <div class="card-testimonial">
+          <div class="card-testimonial" data-aos="zoom-in-right">
             <i class="fas fa-quote-left"></i>
             <p>Nam libero tempore, cum soluta
               nobis est eligendi optio cumque nihil
@@ -461,7 +462,7 @@
             </div>
           </div>
 
-          <div class="card-testimonial">
+          <div class="card-testimonial" data-aos="zoom-in-right">
             <i class="fas fa-quote-left"></i>
             <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit."</p>
             <div class="profile-testimonial">
@@ -541,7 +542,7 @@
           </div>
         </div>
       </section>
-      <section class="banner">
+      <section class="banner " data-aos="zoom-in-right" data-aos-duration="1200">
         <img src="img/image.png" alt="">
         <div class="container-banner">
           <h4>Not Sure Where to Begin?
@@ -608,14 +609,19 @@
     <footer class="footer">
       <p>&copy;2021 Studios. All rights reserved. Developed by Team </p>
     </footer>
+    <div class="arrow-up">
+      <a href="#header"><i class="fas fa-level-up-alt"></i></a>
+      
+    </div>
   </div>
 
   <script src="js/app.js"></script>
   <!-- Swiper JS -->
   <script src="js/swiper.min.js"></script>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- Initialize Swiper -->
   <script>
+      AOS.init();
     var swiper = new Swiper('.swiper-container', {
       direction: 'horizontal',
      /*  pagination: '.swiper-pagination',
@@ -631,3 +637,4 @@
 </body>
 
 </html>
+
