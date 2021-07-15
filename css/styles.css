@@ -164,12 +164,17 @@ body.dark .links-navbar a:hover{
 
 .mode,.hamburguer{
     padding: 0 .5rem;
+    cursor: pointer;
 }
 
 .mode i{
     padding: 1rem;
     font-size: 1.2rem;
     color: var(--principal-color);
+}
+
+body.dark .mode i{
+    color: #FFC949;
 }
 
 .hamburguer{
@@ -476,8 +481,9 @@ body.dark .card-description p{
 }
 
 body.dark .card-course{
-    border: 1px solid #26272b;
-    border-radius: 20px;
+    border: none;
+    background-color: #161c2d;
+    box-shadow: 0 20px 62px hsla(222, 34%, 17%, 1);
 }
 
 .card-course:hover{
