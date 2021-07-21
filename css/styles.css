@@ -129,6 +129,10 @@ body.dark .links-navbar a:hover{
     color: var(--secundary-color)
 }
 
+body.dark .links li:first-child a{
+    color: var(--secundary-color)
+}
+
 .search{
     position: relative;
 }
