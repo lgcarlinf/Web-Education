@@ -93,6 +93,7 @@ body.dark .logo h1:hover{
     width: 700px;
     display: flex;   
     transition: all .4s ease-in-out;
+   
 }
 
 .links {
@@ -102,6 +103,7 @@ body.dark .logo h1:hover{
     align-items: center;
     list-style: none;
     transition: all .4s ease-in-out;
+  
 }
 
 .links li a{
@@ -135,9 +137,11 @@ body.dark .links li:first-child a{
 
 .search{
     position: relative;
+  
 }
 
 .search i{
+    visibility: visible;
     position: absolute;
     top: 12px;
     right: 19px;
@@ -151,7 +155,8 @@ body.dark .links li:first-child a{
     color: var(--secundary-color);
 }
 
-.search input{
+.search .input-text{
+    
     padding:10px 0;
     padding-left: 12px;
     border-radius: 50px;
@@ -167,11 +172,18 @@ body.dark .links li:first-child a{
 }
 
 .mode,.hamburguer{
+    
     padding: 0 .5rem;
     cursor: pointer;
 }
 
+.btn-search{
+    visibility:hidden;
+    
+}
+
 .mode i{
+
     padding: 1rem;
     font-size: 1.2rem;
     color: var(--principal-color);
